@@ -18,8 +18,8 @@ async function startApp () {
             let transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                    user: 'napoleon.leopard1488@gmail.com', // enter ure gmail address
-                    pass: 'Cocacola99', // enter ure gmail pass
+                    user: 'mail', // enter ure gmail address
+                    pass: 'pass', // enter ure gmail pass
                 },
             });   
             const send = {
