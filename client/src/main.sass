@@ -1,0 +1,73 @@
+@import  '~antd/dist/antd.css'
+
+body 
+  margin: 0
+
+.Them
+    position: relative
+    width: 100vw
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: #222222
+
+.Form
+    width: 280px
+    height: 280px
+    position: relative
+    justify-content: center
+    align-items: center
+    display: grid
+    grid-template-columns: 1fr
+    grid-template-rows: 1fr 1fr 1fr 1fr
+    gap: 0px 0px
+    grid-template-areas:"." "." "." "."
+    background-color: #e4e4e4
+
+.Label
+    color: #222222
+    grid-row: 1
+    margin-left: 20px
+    margin-top: 15px 
+    font-size: 20px
+    font-weight: 700
+
+.EmailInput
+    width: 75%
+    margin-left: 12.5%
+
+.MessageInput
+    width: 75%
+    margin-left: 12.5%
+
+.Btn
+    width: 30%
+    margin-left: 12.5%
+    margin-right: 10px
+    grid-row: 4
+    
+.EmailForm
+    grid-row: 2
+    justify-content: center
+    align-items: center
+    display: grid
+    grid-template-columns: 1fr
+    grid-template-rows: 1fr 1fr 
+    gap: 0px 0px
+    grid-template-areas:"." "."
+
+.MessageForm
+    grid-row: 3
+    justify-content: center
+    align-items: center
+    display: grid
+    grid-template-columns: 1fr
+    grid-template-rows: 1fr 1fr 
+    gap: 0px 0px
+    grid-template-areas:"." "."
+
+.Error
+    color: #ff0000
+    margin-left: 12.5%
+    grid-row: 2
